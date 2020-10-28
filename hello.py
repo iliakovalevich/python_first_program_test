@@ -28,27 +28,27 @@
 # ---------------------------------------
 
 
-# # Обменный пункт
-# print("Для выхода нажмите Y")
-# # Курсы
-# usd = 2.62
-# eur = 3.05
-# while True:
-#     data = input("Input sum for currency:")
-#     if data.lower() == "y":
-#         break  # выход из цикла
-#     money = int(data)
-#     valute = int(input("Input type of valute (usd=400/eur=500):"))
-#     if valute == 400:
-#         course = usd
-#     elif valute == 500:
-#         course = eur
-#     else:
-#         print("valute is not found!")
-#         continue
-#     cache = money / course
-#     print(cache)
-# print("finish")
+# Обменный пункт
+print("Для выхода нажмите Y")
+# Курсы
+usd = 2.62
+eur = 3.05
+while True:
+    data = input("Input sum for currency:")
+    if data.lower() == "y":
+        break  # выход из цикла
+    money = int(data)
+    valute = int(input("Input type of valute (usd=400/eur=500):"))
+    if valute == 400:
+        course = usd
+    elif valute == 500:
+        course = eur
+    else:
+        print("valute is not found!")
+        continue
+    cache = money / course
+    print(cache)
+print("finish")
 
 # ---------------------------------------
 
